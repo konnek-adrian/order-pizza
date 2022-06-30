@@ -1,34 +1,34 @@
 [
   {
-    "name": "ser",
+    "name": "cheese",
     "cost": 0
   },
   {
-    "name": "ananas",
+    "name": "pineapple",
     "cost": 120
   },
   {
-    "name": "cebula",
+    "name": "onion",
     "cost": 50
   },
   {
-    "name": "chili",
+    "name": "chilli",
     "cost": 100
   },
   {
-    "name": "czosnek",
+    "name": "garlic",
     "cost": 50
   },
   {
-    "name": "krewetki",
+    "name": "prawns",
     "cost": 250
   },
   {
-    "name": "kukurydza",
+    "name": "corn",
     "cost": 100
   },
   {
-    "name": "łosoś",
+    "name": "salmon",
     "cost": 300
   },
   {
@@ -36,11 +36,11 @@
     "cost": 150
   },
   {
-    "name": "oliwki",
+    "name": "olives",
     "cost": 80
   },
   {
-    "name": "papryka",
+    "name": "pepper",
     "cost": 100
   },
   {
@@ -48,19 +48,19 @@
     "cost": 150
   },
   {
-    "name": "pieczarki",
+    "name": "champignons",
     "cost": 150
   },
   {
-    "name": "pomidor",
+    "name": "tomato",
     "cost": 100
   },
   {
-    "name": "szynka",
+    "name": "ham",
     "cost": 200
   },
   {
-    "name": "rukola",
+    "name": "aragula",
     "cost": 200
   }
 ]
