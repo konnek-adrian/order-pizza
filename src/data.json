@@ -1,0 +1,66 @@
+[
+  {
+    "name": "ser",
+    "cost": 0
+  },
+  {
+    "name": "ananas",
+    "cost": 120
+  },
+  {
+    "name": "cebula",
+    "cost": 50
+  },
+  {
+    "name": "chili",
+    "cost": 100
+  },
+  {
+    "name": "czosnek",
+    "cost": 50
+  },
+  {
+    "name": "krewetki",
+    "cost": 250
+  },
+  {
+    "name": "kukurydza",
+    "cost": 100
+  },
+  {
+    "name": "łosoś",
+    "cost": 300
+  },
+  {
+    "name": "mozzarella",
+    "cost": 150
+  },
+  {
+    "name": "oliwki",
+    "cost": 80
+  },
+  {
+    "name": "papryka",
+    "cost": 100
+  },
+  {
+    "name": "pepperoni",
+    "cost": 150
+  },
+  {
+    "name": "pieczarki",
+    "cost": 150
+  },
+  {
+    "name": "pomidor",
+    "cost": 100
+  },
+  {
+    "name": "szynka",
+    "cost": 200
+  },
+  {
+    "name": "rukola",
+    "cost": 200
+  }
+]
