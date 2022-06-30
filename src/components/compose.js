@@ -3,12 +3,35 @@ import Ingredients from "../data.json";
 
 function Compose() {
   const [ingredients, setIngredients] = useState([]);
-  useEffect(() => {}, []);
+  const [price, setPrice] = useState(0);
+  const [base, setBase] = useState(700);
+  useEffect(() => {
+    Ingredients.map((ingredient) => {
+      ingredient.checked = ingredient.cost === 0 ? true : false;
+      return ingredient;
+    });
+    setIngredients(Ingredients);
+  }, []);
 
+  const ingredientChange = (ingredient) => {
+    setIngredients(
+      ingredients.map((el) => {
+        if (el.name === ingredient.name) el.checked = !el.checked;
+
+        return el;
+      })
+    );
+
+    setPrice(
+      ingredients.reduce((summary, ingredient) => {
+        return ingredient.checked ? summary + ingredient.cost : summary;
+      }, base)
+    );
+  };
   return (
     <div className="compose">
       <h1>Compose pizza</h1>
-      <h4>Price: 0$</h4>
+      <h4>Price: {(price / 100).toFixed(2)}$</h4>
       <div>
         <img
           className={"size small"}
@@ -30,10 +53,14 @@ function Compose() {
         <button className="btn">Add</button>
       </div>
       <div className="ingredients">
-        {Ingredients.map((ingredient, index) => {
+        {ingredients.map((ingredient, index) => {
           return (
             <div key={index} className="ingredientRow">
-              <input type="checkbox" />
+              <input
+                type="checkbox"
+                checked={ingredient.checked}
+                onChange={() => ingredientChange(ingredient)}
+              />
               <img
                 className="ingredient_icon"
                 src={
