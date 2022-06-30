@@ -31,6 +31,18 @@ const ingredientChange = (ingredient) => {
 const changeSize = (size) => {
   setBase(size);
 };
+const addPizza = () => {
+  let size = "Medium";
+  if (base === 500) {
+    size = "Small";
+  } else if (base === 1100) {
+    size = "Big";
+  }
+  let pizza = { size: size, price: price, ingredients: [] };
+  ingredients.forEach((ingredient) => {
+    if (ingredient.checked) pizza.ingredients.push(ingredient);
+  });
+};
 return (
   <div className="compose">
     <h1>Compose pizza</h1>
@@ -56,7 +68,9 @@ return (
       />
     </div>
     <div>
-      <button className="btn">Add</button>
+      <button className="btn" onClick={() => addPizza()}>
+        Add
+      </button>
     </div>
     <div className="ingredients">
       {ingredients.map((ingredient, index) => {
