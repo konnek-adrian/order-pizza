@@ -1,0 +1,66 @@
+[
+  {
+    "name": "cheese",
+    "cost": 0
+  },
+  {
+    "name": "pineapple",
+    "cost": 120
+  },
+  {
+    "name": "onion",
+    "cost": 50
+  },
+  {
+    "name": "chilli",
+    "cost": 100
+  },
+  {
+    "name": "garlic",
+    "cost": 50
+  },
+  {
+    "name": "prawns",
+    "cost": 250
+  },
+  {
+    "name": "corn",
+    "cost": 100
+  },
+  {
+    "name": "salmon",
+    "cost": 300
+  },
+  {
+    "name": "mozzarella",
+    "cost": 150
+  },
+  {
+    "name": "olives",
+    "cost": 80
+  },
+  {
+    "name": "pepper",
+    "cost": 100
+  },
+  {
+    "name": "pepperoni",
+    "cost": 150
+  },
+  {
+    "name": "champignons",
+    "cost": 150
+  },
+  {
+    "name": "tomato",
+    "cost": 100
+  },
+  {
+    "name": "ham",
+    "cost": 200
+  },
+  {
+    "name": "aragula",
+    "cost": 200
+  }
+]

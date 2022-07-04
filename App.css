@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.content {
+  display: flex;
+}
+.compose{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+ .ingredient_icon{
+width: 50px;
+height: 50px;
+ }
+ .ingredientRow{
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+ }
+ /* .ingredientRow p:last child{
+  margin-left: auto;
+ } */
+ .ingredient_price{
+  margin-left: auto;
+ }
+ .ingredients{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 1/3;
+ }
+ .size{
+  width: 60px;
+  height: 60px;
+  margin: 0 20px;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 50%;
+ }
+ .size.small{
+  width: 45px;
+  height: 45px;
+ }
+ .size.big{
+  width: 70px;
+  height: 70px;
+ }
+.size.checked{
+  background-color: red;
+}
